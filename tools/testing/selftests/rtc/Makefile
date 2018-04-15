@@ -4,6 +4,6 @@ LDFLAGS += -lrt -lpthread -lm
 
 TEST_GEN_PROGS = rtctest
 
-TEST_GEN_PROGS_EXTENDED = setdate
+TEST_GEN_PROGS_EXTENDED = setdate rtcrange
 
 include ../lib.mk
